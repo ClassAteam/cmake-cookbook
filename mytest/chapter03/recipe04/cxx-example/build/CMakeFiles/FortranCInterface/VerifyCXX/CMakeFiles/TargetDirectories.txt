@@ -1,0 +1,4 @@
+/home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe04/cxx-example/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/rebuild_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe04/cxx-example/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/edit_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe04/cxx-example/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/VerifyFortranC.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe04/cxx-example/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/VerifyFortran.dir

@@ -1,0 +1,52 @@
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-01/cxx-example$ ls
+CMakeLists.txt  main.cpp  menu.yml  sum_integers.cpp  sum_integers.hpp  test.cpp  test.py  test.sh
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-01/cxx-example$ ls
+CMakeLists.txt  main.cpp  menu.yml  sum_integers.cpp  sum_integers.hpp  test.cpp  test.py  test.sh
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-01/cxx-example$ mkdir build; cd build
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-01/cxx-example/build$ ls
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-01/cxx-example/build$ cmake ..
+-- The CXX compiler identification is GNU 10.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: /usr/bin/python3.9 (found version "3.9.5") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-01/cxx-example/build
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-01/cxx-example/build$ cmake --build .
+Scanning dependencies of target sum_integers
+[ 16%] Building CXX object CMakeFiles/sum_integers.dir/sum_integers.cpp.o
+[ 33%] Linking CXX static library libsum_integers.a
+[ 33%] Built target sum_integers
+Scanning dependencies of target cpp_test
+[ 50%] Building CXX object CMakeFiles/cpp_test.dir/test.cpp.o
+[ 66%] Linking CXX executable cpp_test
+[ 66%] Built target cpp_test
+Scanning dependencies of target sum_up
+[ 83%] Building CXX object CMakeFiles/sum_up.dir/main.cpp.o
+[100%] Linking CXX executable sum_up
+[100%] Built target sum_up
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-01/cxx-example/build$ ls
+CMakeCache.txt  CMakeFiles  cmake_install.cmake  cpp_test  CTestTestfile.cmake  libsum_integers.a  Makefile  sum_up
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-01/cxx-example/build$                                                                                                                                                                                                             
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-01/cxx-example/build$ ls
+CMakeCache.txt  CMakeFiles  cmake_install.cmake  cpp_test  CTestTestfile.cmake  libsum_integers.a  Makefile  sum_up
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-01/cxx-example/build$ ./sum_up 1 2 3 4 5
+15
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-01/cxx-example/build$ ctest
+Test project /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-01/cxx-example/build
+    Start 1: bash_test
+1/4 Test #1: bash_test ........................   Passed    0.01 sec
+    Start 2: cpp_test
+2/4 Test #2: cpp_test .........................   Passed    0.00 sec
+    Start 3: python_test_long
+3/4 Test #3: python_test_long .................   Passed    0.03 sec
+    Start 4: python_test_short
+4/4 Test #4: python_test_short ................   Passed    0.06 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Total Test time (real) =   0.11 sec
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-01/cxx-example/build$ 

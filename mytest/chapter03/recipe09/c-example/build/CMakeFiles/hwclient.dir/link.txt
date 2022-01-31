@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/hwclient.dir/hwclient.c.o -o hwclient  /usr/lib/x86_64-linux-gnu/libzmq.so 

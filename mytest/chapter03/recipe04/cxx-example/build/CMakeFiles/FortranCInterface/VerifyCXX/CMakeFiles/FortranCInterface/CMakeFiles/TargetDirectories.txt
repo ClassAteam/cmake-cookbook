@@ -1,0 +1,5 @@
+/home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe04/cxx-example/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/rebuild_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe04/cxx-example/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/FortranCInterface.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe04/cxx-example/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/symbols.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe04/cxx-example/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/edit_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe04/cxx-example/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/myfort.dir

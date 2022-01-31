@@ -1,0 +1,18 @@
+Performing C SOURCE FILE Test C_SUPPORTS_DOLLAR succeeded with the following output:
+Change Dir: /home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe04/cxx-example/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6b699/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6b699.dir/build.make CMakeFiles/cmTC_6b699.dir/build
+gmake[1]: Entering directory '/home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe04/cxx-example/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b699.dir/src.c.o
+/usr/bin/cc   -DC_SUPPORTS_DOLLAR -o CMakeFiles/cmTC_6b699.dir/src.c.o -c /home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe04/cxx-example/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6b699
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b699.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_SUPPORTS_DOLLAR CMakeFiles/cmTC_6b699.dir/src.c.o -o cmTC_6b699 
+gmake[1]: Leaving directory '/home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe04/cxx-example/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+extern int dollar$(void);
+int main() { return 0; }
+

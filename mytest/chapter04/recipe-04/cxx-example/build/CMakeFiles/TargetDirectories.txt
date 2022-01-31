@@ -1,0 +1,6 @@
+/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-04/cxx-example/build/CMakeFiles/edit_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-04/cxx-example/build/CMakeFiles/test.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-04/cxx-example/build/CMakeFiles/rebuild_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-04/cxx-example/build/CMakeFiles/cpp_test.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-04/cxx-example/build/CMakeFiles/sum_up.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-04/cxx-example/build/CMakeFiles/sum_integers.dir

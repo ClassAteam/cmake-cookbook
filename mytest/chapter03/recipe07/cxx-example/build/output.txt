@@ -1,0 +1,53 @@
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example$ ls
+CMakeLists.txt  linear-algebra.cpp  menu.yml  README.md
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example$ mkdir build; cd build
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example/build$ ls
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example/build$ cmake ..
+-- The CXX compiler identification is GNU 10.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Eigen3 v found in 
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Looking for sgemm_
+-- Looking for sgemm_ - found
+-- Found BLAS: /usr/lib/x86_64-linux-gnu/libblas.so  
+-- Eigen will use some subroutines from BLAS.
+-- See: http://eigen.tuxfamily.org/dox-devel/TopicUsingBlasLapack.html
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example/build
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example/build$ cmake --build .
+Scanning dependencies of target linear-algebra
+[ 50%] Building CXX object CMakeFiles/linear-algebra.dir/linear-algebra.cpp.o
+[100%] Linking CXX executable linear-algebra
+[100%] Built target linear-algebra
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example/build$ ./linear-algebra 1000
+Number of threads used by Eigen: 8
+matrices allocated and initialized Tue Jan 25 2022 10:59:11 AM
+elapsed time: 0.0681199s
+Scaling done, A and b saved Tue Jan 25 2022 10:59:11 AM
+elapsed time: 0.0681199s
+Linear system solver done Tue Jan 25 2022 10:59:11 AM
+elapsed time: 0.29927s
+relative error is 2.70107e-13
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example/build$ 
+
+
+
+
+

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter02/recipe05/cxx-example/processor-info.cpp
+config.h
+/home/yuri/repo/cmake-cookbook/mytest/chapter02/recipe05/cxx-example/config.h
+cstdlib
+-
+iostream
+-
+
+config.h
+

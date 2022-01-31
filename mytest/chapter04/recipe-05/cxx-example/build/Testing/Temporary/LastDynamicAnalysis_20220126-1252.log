@@ -1,0 +1,18 @@
+Start testing: Jan 26 15:56 MSK
+----------------------------------------------------------
+1/1 Testing: cpp_test
+1/1 Test: cpp_test
+Command: "/usr/bin/valgrind" "--log-file=/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-05/cxx-example/build/Testing/Temporary/MemoryChecker.1.log" "--trace-children=yes" "--leak-check=full" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-05/cxx-example/build/cpp_test"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-05/cxx-example/build
+"cpp_test" start time: Jan 26 15:56 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"cpp_test" end time: Jan 26 15:56 MSK
+"cpp_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 26 15:56 MSK

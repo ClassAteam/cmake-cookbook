@@ -1,0 +1,98 @@
+Determining if the Fortran sgemm exists failed with the following output:
+Change Dir: /home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6b546/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6b546.dir/build.make CMakeFiles/cmTC_6b546.dir/build
+gmake[1]: Entering directory '/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_6b546.dir/testFortranCompiler.f.o
+/usr/bin/gfortran    -c /home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_6b546.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_6b546
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b546.dir/link.txt --verbose=1
+/usr/bin/gfortran CMakeFiles/cmTC_6b546.dir/testFortranCompiler.f.o -o cmTC_6b546 
+/usr/bin/ld: CMakeFiles/cmTC_6b546.dir/testFortranCompiler.f.o: in function `MAIN__':
+testFortranCompiler.f:(.text+0xa): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_6b546.dir/build.make:106: cmTC_6b546] Error 1
+gmake[1]: Leaving directory '/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_6b546/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_863be/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_863be.dir/build.make CMakeFiles/cmTC_863be.dir/build
+gmake[1]: Entering directory '/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_863be.dir/src.cxx.o
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_863be.dir/src.cxx.o -c /home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_863be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_863be.dir/link.txt --verbose=1
+/usr/bin/c++  -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_863be.dir/src.cxx.o -o cmTC_863be 
+/usr/bin/ld: CMakeFiles/cmTC_863be.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x5e): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.cxx:(.text+0x6f): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_863be.dir/build.make:106: cmTC_863be] Error 1
+gmake[1]: Leaving directory '/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_863be/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_3dce5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3dce5.dir/build.make CMakeFiles/cmTC_3dce5.dir/build
+gmake[1]: Entering directory '/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3dce5.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_3dce5.dir/CheckFunctionExists.cxx.o -c /home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_3dce5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dce5.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_3dce5.dir/CheckFunctionExists.cxx.o -o cmTC_3dce5  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_3dce5.dir/build.make:106: cmTC_3dce5] Error 1
+gmake[1]: Leaving directory '/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_3dce5/fast] Error 2
+
+
+
+Determining if the Fortran cheev exists failed with the following output:
+Change Dir: /home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_24f4f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_24f4f.dir/build.make CMakeFiles/cmTC_24f4f.dir/build
+gmake[1]: Entering directory '/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_24f4f.dir/testFortranCompiler.f.o
+/usr/bin/gfortran    -c /home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_24f4f.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_24f4f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24f4f.dir/link.txt --verbose=1
+/usr/bin/gfortran CMakeFiles/cmTC_24f4f.dir/testFortranCompiler.f.o -o cmTC_24f4f  /usr/lib/x86_64-linux-gnu/libblas.so -lpthread -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_24f4f.dir/testFortranCompiler.f.o: in function `MAIN__':
+testFortranCompiler.f:(.text+0xa): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_24f4f.dir/build.make:107: cmTC_24f4f] Error 1
+gmake[1]: Leaving directory '/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_24f4f/fast] Error 2
+
+
+

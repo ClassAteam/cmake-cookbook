@@ -1,0 +1,2 @@
+/home/yuri/repo/cmake-cookbook/mytest/chapter02/recipe01/example/build/CMakeFiles/rebuild_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter02/recipe01/example/build/CMakeFiles/edit_cache.dir

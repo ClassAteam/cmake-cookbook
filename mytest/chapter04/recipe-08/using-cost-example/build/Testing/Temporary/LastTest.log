@@ -1,0 +1,153 @@
+Start testing: Jan 27 08:07 MSK
+----------------------------------------------------------
+5/10 Testing: e
+5/10 Test: e
+Command: "/usr/bin/python3.9" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/test/e.py"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/build
+"e" start time: Jan 27 08:07 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.52 sec
+----------------------------------------------------------
+Test Passed.
+"e" end time: Jan 27 08:07 MSK
+"e" time elapsed: 00:00:01
+----------------------------------------------------------
+
+8/10 Testing: h
+8/10 Test: h
+Command: "/usr/bin/python3.9" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/test/h.py"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/build
+"h" start time: Jan 27 08:07 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   2.53 sec
+----------------------------------------------------------
+Test Passed.
+"h" end time: Jan 27 08:07 MSK
+"h" time elapsed: 00:00:02
+----------------------------------------------------------
+
+6/10 Testing: f
+6/10 Test: f
+Command: "/usr/bin/python3.9" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/test/f.py"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/build
+"f" start time: Jan 27 08:07 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.53 sec
+----------------------------------------------------------
+Test Passed.
+"f" end time: Jan 27 08:07 MSK
+"f" time elapsed: 00:00:01
+----------------------------------------------------------
+
+9/10 Testing: i
+9/10 Test: i
+Command: "/usr/bin/python3.9" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/test/i.py"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/build
+"i" start time: Jan 27 08:07 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   3.53 sec
+----------------------------------------------------------
+Test Passed.
+"i" end time: Jan 27 08:07 MSK
+"i" time elapsed: 00:00:03
+----------------------------------------------------------
+
+1/10 Testing: a
+1/10 Test: a
+Command: "/usr/bin/python3.9" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/test/a.py"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/build
+"a" start time: Jan 27 08:07 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"a" end time: Jan 27 08:07 MSK
+"a" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/10 Testing: b
+2/10 Test: b
+Command: "/usr/bin/python3.9" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/test/b.py"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/build
+"b" start time: Jan 27 08:07 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"b" end time: Jan 27 08:07 MSK
+"b" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/10 Testing: g
+7/10 Test: g
+Command: "/usr/bin/python3.9" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/test/g.py"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/build
+"g" start time: Jan 27 08:07 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.53 sec
+----------------------------------------------------------
+Test Passed.
+"g" end time: Jan 27 08:07 MSK
+"g" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/10 Testing: c
+3/10 Test: c
+Command: "/usr/bin/python3.9" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/test/c.py"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/build
+"c" start time: Jan 27 08:07 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"c" end time: Jan 27 08:07 MSK
+"c" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/10 Testing: j
+10/10 Test: j
+Command: "/usr/bin/python3.9" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/test/j.py"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/build
+"j" start time: Jan 27 08:07 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   4.53 sec
+----------------------------------------------------------
+Test Passed.
+"j" end time: Jan 27 08:07 MSK
+"j" time elapsed: 00:00:04
+----------------------------------------------------------
+
+4/10 Testing: d
+4/10 Test: d
+Command: "/usr/bin/python3.9" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/test/d.py"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/using-cost-example/build
+"d" start time: Jan 27 08:07 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"d" end time: Jan 27 08:07 MSK
+"d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 27 08:07 MSK

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe05/cxx-example/example.cpp
+iostream
+-
+omp.h
+-
+string
+-
+

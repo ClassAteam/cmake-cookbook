@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe08/cxx-example/geometry_circle.cpp
+geometry_circle.hpp
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe08/cxx-example/geometry_circle.hpp
+cmath
+-
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe08/cxx-example/geometry_circle.hpp
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe08/cxx-example/geometry_polygon.cpp
+geometry_polygon.hpp
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe08/cxx-example/geometry_polygon.hpp
+cmath
+-
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe08/cxx-example/geometry_polygon.hpp
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe08/cxx-example/geometry_rhombus.cpp
+geometry_rhombus.hpp
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe08/cxx-example/geometry_rhombus.hpp
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe08/cxx-example/geometry_rhombus.hpp
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe08/cxx-example/geometry_square.cpp
+geometry_square.hpp
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe08/cxx-example/geometry_square.hpp
+cmath
+-
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe08/cxx-example/geometry_square.hpp
+

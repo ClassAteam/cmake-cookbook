@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmath.a CMakeFiles/math.dir/wrap_BLAS_LAPACK/CxxBLAS.cpp.o CMakeFiles/math.dir/wrap_BLAS_LAPACK/CxxLAPACK.cpp.o
+/usr/bin/ranlib libmath.a

@@ -1,0 +1,4 @@
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe08/cxx-example/build/CMakeFiles/rebuild_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe08/cxx-example/build/CMakeFiles/edit_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe08/cxx-example/build/CMakeFiles/compute-areas.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe08/cxx-example/build/CMakeFiles/geometry.dir

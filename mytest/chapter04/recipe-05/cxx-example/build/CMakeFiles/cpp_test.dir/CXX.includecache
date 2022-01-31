@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-05/cxx-example/leaky_implementation.hpp
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-05/cxx-example/test.cpp
+leaky_implementation.hpp
+/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-05/cxx-example/leaky_implementation.hpp
+

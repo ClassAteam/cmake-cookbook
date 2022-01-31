@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe09/cxx-example/Animal.cpp
+Animal.hpp
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe09/cxx-example/Animal.hpp
+string
+-
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe09/cxx-example/Animal.hpp
+string
+-
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe09/cxx-example/Cat.cpp
+Cat.hpp
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe09/cxx-example/Cat.hpp
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe09/cxx-example/Cat.hpp
+Animal.hpp
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe09/cxx-example/Animal.hpp
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe09/cxx-example/Dog.cpp
+Dog.hpp
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe09/cxx-example/Dog.hpp
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe09/cxx-example/Dog.hpp
+Animal.hpp
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe09/cxx-example/Animal.hpp
+

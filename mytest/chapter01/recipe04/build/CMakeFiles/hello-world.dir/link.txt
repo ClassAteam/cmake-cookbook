@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/hello-world.dir/hello-world.cpp.o -o hello-world  -Wl,-rpath,/home/yuri/repo/cmake-cookbook/mytest/chapter01/reciepe04/build libmessage.so 

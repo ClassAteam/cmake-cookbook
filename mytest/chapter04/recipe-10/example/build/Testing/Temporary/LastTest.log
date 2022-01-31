@@ -1,0 +1,67 @@
+Start testing: Jan 27 09:41 MSK
+----------------------------------------------------------
+1/4 Testing: setup
+1/4 Test: setup
+Command: "/usr/bin/python3.9" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-10/example/test/setup.py"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-10/example/build
+"setup" start time: Jan 27 09:41 MSK
+Output:
+----------------------------------------------------------
+setting up
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"setup" end time: Jan 27 09:41 MSK
+"setup" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: feature-a
+2/4 Test: feature-a
+Command: "/usr/bin/python3.9" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-10/example/test/feature-a.py"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-10/example/build
+"feature-a" start time: Jan 27 09:41 MSK
+Output:
+----------------------------------------------------------
+running test a
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"feature-a" end time: Jan 27 09:41 MSK
+"feature-a" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: feature-b
+3/4 Test: feature-b
+Command: "/usr/bin/python3.9" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-10/example/test/feature-b.py"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-10/example/build
+"feature-b" start time: Jan 27 09:41 MSK
+Output:
+----------------------------------------------------------
+running test b
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"feature-b" end time: Jan 27 09:41 MSK
+"feature-b" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: cleanup
+4/4 Test: cleanup
+Command: "/usr/bin/python3.9" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-10/example/test/cleanup.py"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-10/example/build
+"cleanup" start time: Jan 27 09:41 MSK
+Output:
+----------------------------------------------------------
+tearing down
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"cleanup" end time: Jan 27 09:41 MSK
+"cleanup" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 27 09:41 MSK

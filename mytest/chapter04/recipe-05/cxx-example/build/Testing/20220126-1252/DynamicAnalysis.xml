@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20220126-1252-Experimental"
+	Name="yuri"
+	Generator="ctest-3.18.4"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="10.3.0"
+	OSName="Linux"
+	Hostname="yuri"
+	OSRelease="5.11.0-49-generic"
+	OSVersion="#55-Ubuntu SMP Wed Jan 12 17:36:34 UTC 2022"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="23"
+	ModelID="24"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="5881"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1400"
+	>
+	<DynamicAnalysis Checker="Valgrind">
+		<StartDateTime>Jan 26 15:56 MSK</StartDateTime>
+		<StartTestTime>1643201784</StartTestTime>
+		<TestList>
+			<Test>./cpp_test</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>cpp_test</Name>
+			<Path>.</Path>
+			<FullName>./cpp_test</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-05/cxx-example/build/Testing/Temporary/MemoryChecker.1.log" "--trace-children=yes" "--leak-check=full" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-05/cxx-example/build/cpp_test"</FullCommandLine>
+			<Results>
+				<Defect type="Memory Leak">1</Defect>
+			</Results>
+			<Log compression="gzip" encoding="base64">eJy9VFFv2jAQfu+vuLeBRIhDYUBWKlUd67rChqhabZom5CRHYuHYke2U8O93aRENU6v1ZYsU5eK7777z+fNNJsFgPBpMJjDHPM4w3nSAQ465NjtAY7SBBB3GTpuTySH2Uhc7I9LMQeuyDT3Gel6PBUOCqgSuvt7B1WL2LulAtIMvpRRcwS1uuUkAHXDZbWS6s0KlcM9laoRKvNNuMOyyxzQzEd1Pv38Ag6ZUsBUuAy+DNRUUH9iFWuujsvKcoCH4mc7R35VG+AYL7cc536AXa72J6PXznUPr/DjjhUPD+hQUiwI9NvDjqvKw4nkh0Y9KIRM/LopVHd7gWXCDysHi+mMI9Vq/4XvZ/Dy9WMDt3Xx+sfwRNtbrRygoLQJ3gJVwIYw6jDFqHZHWvgAiqeONPUI57biEDHlBWJ5iCD1qLMXZDgHWBpGMEesMWX+f6dHLHSbNAs+i8/ns5syPzuF59RV+oE2TFtZCCYdyB1Lb+gDqr6VDijUdbwB6DcHx/mhfrOqP+v3e+DQEXaDhJCZQuP35q1UqK1KFCWVRaRtalM8vrfGliLDC2H/YC8N/SAuDUvNkle916vE8ed/3pFBl1bW6fcxKymNVwMbBcBhColeWBLHaarNp7Vn+gUJeK2EwDiHnRPo/iBvmbHpx84ro/jjHt4mOHImgetwB1UCwFxEABclDRG9HWCekJD1xakEk8U0cNawsSCDWYvI3RMP8RDqUwjpby/ZpzJEU6+HznO5pCNJtep5DIXjNhNPl8tvy0Gdq3ROCbqHO6S/WymFFHK3jGh/drH3yG/0Usu8=</Log>
+		</Test>
+		<DefectList>
+			<Defect Type="Memory Leak"/>
+		</DefectList>
+		<EndDateTime>Jan 26 15:56 MSK</EndDateTime>
+		<EndTestTime>1643201784</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</DynamicAnalysis>
+</Site>

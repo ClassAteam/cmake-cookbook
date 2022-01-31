@@ -1,0 +1,3 @@
+/home/yuri/repo/cmake_examples/mytest/hello/build_ninja/CMakeFiles/rebuild_cache.dir
+/home/yuri/repo/cmake_examples/mytest/hello/build_ninja/CMakeFiles/edit_cache.dir
+/home/yuri/repo/cmake_examples/mytest/hello/build_ninja/CMakeFiles/hello-world.dir

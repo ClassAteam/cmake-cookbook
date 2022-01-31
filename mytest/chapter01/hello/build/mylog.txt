@@ -1,0 +1,143 @@
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello$ ls
+build  build_ninja  CMakeLists.txt  hello-world.cpp
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello$ ls
+build  build_ninja  CMakeLists.txt  hello-world.cpp
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello$ ls
+build  build_ninja  CMakeLists.txt  hello-world.cpp
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello$ ls
+build  build_ninja  CMakeLists.txt  hello-world.cpp
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello$ cd build
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ ls
+CMakeCache.txt  CMakeFiles  cmake_install.cmake  hello-world  Makefile
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ cmake ..
+CMake Error: The current CMakeCache.txt directory /home/yuri/repo/cmake-cookbook/mytest/chapter01/hello/build/CMakeCache.txt is different than the directory /home/yuri/repo/cmake_examples/mytest/hello/build where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source "/home/yuri/repo/cmake-cookbook/mytest/chapter01/hello/CMakeLists.txt" does not match the source "/home/yuri/repo/cmake_examples/mytest/hello/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ (((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((arg: 121)                                                                                                                   
+>                                                                                                                   
+> ^C
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ 
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ 
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ 
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ 
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ 
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ ls
+CMakeCache.txt  CMakeFiles  cmake_install.cmake  hello-world  Makefile
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ rm ./*
+rm: cannot remove './CMakeFiles': Is a directory
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ rm -r ./*
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ ls
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ cmake ..yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ cmake ..
+-- The CXX compiler identification is GNU 10.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yuri/repo/cmake-cookbook/mytest/chapter01/hello/build
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ 
+bash: yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$: No such file or directory
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ 
+bash: yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$: No such file or directory
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ 
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ 
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ 
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ ls
+CMakeCache.txt  CMakeFiles  cmake_install.cmake  Makefile
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ exit
+exit
+
+Process terminal finished
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ ls
+CMakeCache.txt  CMakeFiles  cmake_install.cmake  Makefile
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ make
+Scanning dependencies of target hello-world
+[ 50%] Building CXX object CMakeFiles/hello-world.dir/hello-world.cpp.o
+[100%] Linking CXX executable hello-world
+[100%] Built target hello-world
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ ls
+CMakeCache.txt  CMakeFiles  cmake_install.cmake  hello-world  Makefile
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ ./hello-world 
+Hello, CMake world!
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ ls
+CMakeCache.txt  CMakeFiles  cmake_install.cmake  hello-world  Makefile
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ ls
+CMakeCache.txt  CMakeFiles  cmake_install.cmake  hello-world  Makefile
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ rm -r ./*
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ cd ..
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello$ ls
+build  build_ninja  CMakeLists.txt  hello-world.cpp
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello$ cd build
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ cmake ..
+-- The CXX compiler identification is GNU 10.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yuri/repo/cmake-cookbook/mytest/chapter01/hello/build
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ make
+Scanning dependencies of target hello-world
+[ 50%] Building CXX object CMakeFiles/hello-world.dir/hello-world.cpp.o
+[100%] Linking CXX executable hello-world
+[100%] Built target hello-world
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ cmake --build . --target help
+The following are some of the valid targets for this Makefile:
+... all (the default if no target is provided)
+... clean
+... depend
+... edit_cache
+... rebuild_cache
+... hello-world
+... hello-world.o
+... hello-world.i
+... hello-world.s
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ cmake --build . --target clean
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ ls
+CMakeCache.txt  CMakeFiles  cmake_install.cmake  Makefile
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ cmake --build .
+[ 50%] Building CXX object CMakeFiles/hello-world.dir/hello-world.cpp.o
+[100%] Linking CXX executable hello-world
+[100%] Built target hello-world
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ ls
+CMakeCache.txt  CMakeFiles  cmake_install.cmake  hello-world  Makefile
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ cmake --build . --target clean
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ ls
+CMakeCache.txt  CMakeFiles  cmake_install.cmake  Makefile
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ ls
+CMakeCache.txt  CMakeFiles  cmake_install.cmake  Makefile
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ cmake --build . --target all
+[ 50%] Building CXX object CMakeFiles/hello-world.dir/hello-world.cpp.o
+[100%] Linking CXX executable hello-world
+[100%] Built target hello-world
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ cmake --build . clear
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ cmake --build . 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yuri/repo/cmake-cookbook/mytest/chapter01/hello/build
+Scanning dependencies of target hello-world2
+[ 25%] Building CXX object CMakeFiles/hello-world2.dir/hello-world.cpp.o
+[ 50%] Linking CXX executable hello-world2
+[ 50%] Built target hello-world2
+[ 75%] Building CXX object CMakeFiles/hello-world.dir/hello-world.cpp.o
+[100%] Linking CXX executable hello-world
+[100%] Built target hello-world
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ ls
+CMakeCache.txt  CMakeFiles  cmake_install.cmake  hello-world  hello-world2  Makefile
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ ./hello-world2
+Hello, CMake world!
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ ls
+CMakeCache.txt  CMakeFiles  cmake_install.cmake  hello-world  hello-world2  Makefile  mylog.txt
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ ls
+CMakeCache.txt  CMakeFiles  cmake_install.cmake  hello-world  hello-world2  Makefile  mylog.txt
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter01/hello/build$ 
+
+
+
+
+
+
+

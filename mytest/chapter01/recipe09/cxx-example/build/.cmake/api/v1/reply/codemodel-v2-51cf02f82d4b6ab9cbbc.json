@@ -1,0 +1,68 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "recipe-09",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "animal-farm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-animal-farm-2e93ff0a773719bd0fe1.json",
+					"name" : "animal-farm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "animals::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-animals-0fb2fe3c610a188da9fe.json",
+					"name" : "animals",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe09/cxx-example/build",
+		"source" : "/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe09/cxx-example"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

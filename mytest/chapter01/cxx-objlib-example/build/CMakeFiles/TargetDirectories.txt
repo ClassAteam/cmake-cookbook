@@ -1,0 +1,6 @@
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/cxx-objlib-example/build/CMakeFiles/rebuild_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/cxx-objlib-example/build/CMakeFiles/edit_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/cxx-objlib-example/build/CMakeFiles/hello-world.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/cxx-objlib-example/build/CMakeFiles/message-static.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/cxx-objlib-example/build/CMakeFiles/message-shared.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/cxx-objlib-example/build/CMakeFiles/message-objs.dir

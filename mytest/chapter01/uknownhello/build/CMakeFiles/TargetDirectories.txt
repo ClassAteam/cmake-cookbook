@@ -1,0 +1,3 @@
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/uknownhello/build/CMakeFiles/rebuild_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/uknownhello/build/CMakeFiles/edit_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/uknownhello/build/CMakeFiles/hello-world.dir

@@ -1,0 +1,79 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_230ab/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_230ab.dir/build.make CMakeFiles/cmTC_230ab.dir/build
+gmake[1]: Entering directory '/home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_230ab.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=sgemm_ -std=c++11 -o CMakeFiles/cmTC_230ab.dir/CheckFunctionExists.cxx.o -c /home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example/build/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_230ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_230ab.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_230ab.dir/CheckFunctionExists.cxx.o -o cmTC_230ab 
+/usr/bin/ld: CMakeFiles/cmTC_230ab.dir/CheckFunctionExists.cxx.o: in function `main':
+CheckFunctionExists.cxx:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_230ab.dir/build.make:106: cmTC_230ab] Error 1
+gmake[1]: Leaving directory '/home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_230ab/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6213f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6213f.dir/build.make CMakeFiles/cmTC_6213f.dir/build
+gmake[1]: Entering directory '/home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6213f.dir/src.cxx.o
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD -std=c++11 -o CMakeFiles/cmTC_6213f.dir/src.cxx.o -c /home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6213f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6213f.dir/link.txt --verbose=1
+/usr/bin/c++  -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_6213f.dir/src.cxx.o -o cmTC_6213f 
+/usr/bin/ld: CMakeFiles/cmTC_6213f.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x5e): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.cxx:(.text+0x6f): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_6213f.dir/build.make:106: cmTC_6213f] Error 1
+gmake[1]: Leaving directory '/home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_6213f/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_47acb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_47acb.dir/build.make CMakeFiles/cmTC_47acb.dir/build
+gmake[1]: Entering directory '/home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_47acb.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -std=c++11 -o CMakeFiles/cmTC_47acb.dir/CheckFunctionExists.cxx.o -c /home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_47acb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47acb.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_47acb.dir/CheckFunctionExists.cxx.o -o cmTC_47acb  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_47acb.dir/build.make:106: cmTC_47acb] Error 1
+gmake[1]: Leaving directory '/home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe07/cxx-example/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_47acb/fast] Error 2
+
+
+

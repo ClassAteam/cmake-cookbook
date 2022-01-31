@@ -1,0 +1,22 @@
+Start testing: Jan 26 15:31 MSK
+----------------------------------------------------------
+1/1 Testing: boost_test
+1/1 Test: boost_test
+Command: "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-04/cxx-example/build/cpp_test"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-04/cxx-example/build
+"boost_test" start time: Jan 26 15:31 MSK
+Output:
+----------------------------------------------------------
+Running 1 test case...
+
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"boost_test" end time: Jan 26 15:31 MSK
+"boost_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 26 15:31 MSK

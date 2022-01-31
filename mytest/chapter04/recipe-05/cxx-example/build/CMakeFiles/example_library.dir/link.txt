@@ -1,0 +1,2 @@
+/usr/bin/ar qc libexample_library.a CMakeFiles/example_library.dir/leaky_implementation.cpp.o
+/usr/bin/ranlib libexample_library.a

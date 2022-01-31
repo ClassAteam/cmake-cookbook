@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/wrap_BLAS_LAPACK/CxxBLAS.cpp
+CxxBLAS.hpp
+/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/wrap_BLAS_LAPACK/CxxBLAS.hpp
+climits
+-
+cstddef
+-
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/wrap_BLAS_LAPACK/CxxBLAS.hpp
+cstddef
+-
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/wrap_BLAS_LAPACK/CxxLAPACK.cpp
+CxxLAPACK.hpp
+/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/wrap_BLAS_LAPACK/CxxLAPACK.hpp
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe03/cxx-example/build/wrap_BLAS_LAPACK/CxxLAPACK.hpp
+

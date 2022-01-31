@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/linear-algebra.dir/linear-algebra.cpp.o -o linear-algebra  libmath.a /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libblas.so 

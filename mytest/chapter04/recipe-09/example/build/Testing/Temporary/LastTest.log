@@ -1,0 +1,53 @@
+Start testing: Jan 27 09:11 MSK
+----------------------------------------------------------
+2/6 Testing: feature-b
+2/6 Test: feature-b
+Command: "/usr/bin/python3.9" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-09/example/test/feature-b.py"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-09/example/build
+"feature-b" start time: Jan 27 09:11 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"feature-b" end time: Jan 27 09:11 MSK
+"feature-b" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: feature-c
+3/6 Test: feature-c
+Command: "/usr/bin/python3.9" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-09/example/test/feature-c.py"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-09/example/build
+"feature-c" start time: Jan 27 09:11 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"feature-c" end time: Jan 27 09:11 MSK
+"feature-c" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: feature-d
+4/6 Test: feature-d
+Command: "/usr/bin/python3.9" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-09/example/test/feature-d.py"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-09/example/build
+"feature-d" start time: Jan 27 09:11 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"feature-d" end time: Jan 27 09:11 MSK
+"feature-d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 27 09:11 MSK
+
+long =   0.53 sec*proc
+
+quick =   0.23 sec*proc
+

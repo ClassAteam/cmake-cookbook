@@ -1,0 +1,7 @@
+/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe04/cxx-example/build/CMakeFiles/rebuild_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe04/cxx-example/build/CMakeFiles/edit_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe04/cxx-example/build/CMakeFiles/linear-algebra.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe04/cxx-example/build/deps/CMakeFiles/rebuild_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe04/cxx-example/build/deps/CMakeFiles/edit_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe04/cxx-example/build/deps/CMakeFiles/math.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe04/cxx-example/build/deps/CMakeFiles/BLAS_LAPACK_wrappers.dir

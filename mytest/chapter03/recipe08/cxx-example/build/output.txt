@@ -1,0 +1,69 @@
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter03/recipe08/cxx-example$ ls
+CMakeLists.txt  menu.yml  path-info.cpp
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter03/recipe08/cxx-example$ ls
+CMakeLists.txt  menu.yml  path-info.cpp
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter03/recipe08/cxx-example$ mkdir build; cd build
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter03/recipe08/cxx-example/build$ ls
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter03/recipe08/cxx-example/build$ cmake ..
+-- The CXX compiler identification is GNU 10.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.54") found components: filesystem 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe08/cxx-example/build
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter03/recipe08/cxx-example/build$ cmake --build .
+Scanning dependencies of target path-info
+[ 50%] Building CXX object CMakeFiles/path-info.dir/path-info.cpp.o
+[100%] Linking CXX executable path-info
+[100%] Built target path-info
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter03/recipe08/cxx-example/build$ ls
+CMakeCache.txt  CMakeFiles  cmake_install.cmake  Makefile  path-info
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter03/recipe08/cxx-example/build$ ./path-info ~/repo/
+
+composed path:
+  operator<<()---------: "/home/yuri/repo/"
+  make_preferred()-----: "/home/yuri/repo/"
+
+elements:
+  "/"
+  "home"
+  "yuri"
+  "repo"
+  "."
+
+observers, native format:
+  native()-------------: /home/yuri/repo/
+  c_str()--------------: /home/yuri/repo/
+  string()-------------: /home/yuri/repo/
+  wstring()------------: /home/yuri/repo/
+
+observers, generic format:
+  generic_string()-----: /home/yuri/repo/
+  generic_wstring()----: /home/yuri/repo/
+
+decomposition:
+  root_name()----------: ""
+  root_directory()-----: "/"
+  root_path()----------: "/"
+  relative_path()------: "home/yuri/repo/"
+  parent_path()--------: "/home/yuri/repo"
+  filename()-----------: "."
+  stem()---------------: "."
+  extension()----------: ""
+
+query:
+  empty()--------------: false
+  is_absolute()--------: true
+  has_root_name()------: false
+  has_root_directory()-: true
+  has_root_path()------: true
+  has_relative_path()--: true
+  has_parent_path()----: true
+  has_filename()-------: true
+  has_stem()-----------: true
+  has_extension()------: false
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter03/recipe08/cxx-example/build$ 

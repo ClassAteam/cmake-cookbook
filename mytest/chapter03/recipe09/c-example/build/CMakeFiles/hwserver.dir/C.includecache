@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter03/recipe09/c-example/hwserver.c
+assert.h
+-
+stdio.h
+-
+string.h
+-
+WinSock2.h
+-
+Windows.h
+-
+unistd.h
+-
+zmq.h
+-
+

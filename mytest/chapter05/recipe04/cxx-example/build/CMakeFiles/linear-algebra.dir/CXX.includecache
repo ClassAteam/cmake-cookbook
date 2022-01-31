@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe04/cxx-example/linear-algebra.cpp
+CxxBLAS.hpp
+/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe04/cxx-example/CxxBLAS.hpp
+CxxLAPACK.hpp
+/home/yuri/repo/cmake-cookbook/mytest/chapter05/recipe04/cxx-example/CxxLAPACK.hpp
+iostream
+-
+random
+-
+vector
+-
+
+deps/wrap_BLAS_LAPACK/CxxBLAS.hpp
+cstddef
+-
+
+deps/wrap_BLAS_LAPACK/CxxLAPACK.hpp
+

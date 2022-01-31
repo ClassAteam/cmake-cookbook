@@ -1,0 +1,4 @@
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe09/cxx-example/build/CMakeFiles/edit_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe09/cxx-example/build/CMakeFiles/rebuild_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe09/cxx-example/build/CMakeFiles/animal-farm.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter01/recipe09/cxx-example/build/CMakeFiles/animals.dir

@@ -1,0 +1,3 @@
+/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/build-without-cost-example-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/build-without-cost-example-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-08/build-without-cost-example-Desktop-Debug/CMakeFiles/test.dir

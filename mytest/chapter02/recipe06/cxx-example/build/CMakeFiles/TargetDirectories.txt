@@ -1,0 +1,4 @@
+/home/yuri/repo/cmake-cookbook/mytest/chapter02/recipe06/cxx-example/build/CMakeFiles/rebuild_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter02/recipe06/cxx-example/build/CMakeFiles/edit_cache.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter02/recipe06/cxx-example/build/CMakeFiles/linear-algebra.dir
+/home/yuri/repo/cmake-cookbook/mytest/chapter02/recipe06/cxx-example/build/CMakeFiles/linear-algebra-unoptimized.dir

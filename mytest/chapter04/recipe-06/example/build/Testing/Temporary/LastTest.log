@@ -1,0 +1,18 @@
+Start testing: Jan 26 16:12 MSK
+----------------------------------------------------------
+1/1 Testing: example
+1/1 Test: example
+Command: "/usr/bin/python3.9" "/home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-06/example/test.py"
+Directory: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-06/example/build
+"example" start time: Jan 26 16:12 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"example" end time: Jan 26 16:12 MSK
+"example" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 26 16:12 MSK

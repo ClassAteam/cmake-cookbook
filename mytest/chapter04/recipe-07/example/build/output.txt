@@ -1,0 +1,38 @@
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-07/example$ ls
+CMakeLists.txt  menu.yml  test.py
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-07/example$ mkdir build; cd build
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-07/example/build$ cmake ..
+-- Found PythonInterp: /usr/bin/python3.9 (found version "3.9.5") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-07/example/build
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-07/example/build$ cmake --build .
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-07/example/build$ ctest
+Test project /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-07/example/build
+    Start 1: example
+1/1 Test #1: example ..........................   Passed    2.03 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   2.03 sec
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-07/example/build$ cmake ..
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-07/example/build
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-07/example/build$ cmake --build .
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-07/example/build$ ctest
+Test project /home/yuri/repo/cmake-cookbook/mytest/chapter04/recipe-07/example/build
+    Start 1: example
+1/1 Test #1: example ..........................***Timeout  10.02 sec
+
+0% tests passed, 1 tests failed out of 1
+
+Total Test time (real) =  10.02 sec
+
+The following tests FAILED:
+          1 - example (Timeout)
+Errors while running CTest
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-07/example/build$ ls
+CMakeCache.txt  CMakeFiles  cmake_install.cmake  CTestTestfile.cmake  Makefile  output  Testing
+yuri@yuri:~/repo/cmake-cookbook/mytest/chapter04/recipe-07/example/build$ 
+
