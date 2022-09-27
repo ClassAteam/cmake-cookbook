@@ -60,7 +60,7 @@ vars_dict = {
 configure_file(input_file, output_file, vars_dict)
 ")
 
-find_package(PythonInterp QUIET REQUIRED)
+find_package(PythonLibs 3 REQUIRED)
 
 execute_process(
   COMMAND

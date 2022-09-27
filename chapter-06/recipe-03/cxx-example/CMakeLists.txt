@@ -7,7 +7,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # we require Python for this recipe to work
-find_package(PythonInterp QUIET REQUIRED)
+# find_package(PythonInterp QUIET REQUIRED)
+find_package(Python COMPONENTS Interpreter Development)
 
 # generate directory where we place the generated code
 file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/generated)
@@ -20,7 +21,7 @@ add_custom_command(
   OUTPUT
     ${CMAKE_CURRENT_BINARY_DIR}/generated/primes.hpp
   COMMAND
-    ${PYTHON_EXECUTABLE} generate.py ${MAX_NUMBER} ${CMAKE_CURRENT_BINARY_DIR}/generated/primes.hpp
+    ${Python_EXECUTABLE} generate.py ${MAX_NUMBER} ${CMAKE_CURRENT_BINARY_DIR}/generated/primes.hpp
   WORKING_DIRECTORY
     ${CMAKE_CURRENT_SOURCE_DIR}
   DEPENDS
