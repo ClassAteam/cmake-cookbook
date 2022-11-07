@@ -60,11 +60,12 @@ vars_dict = {
 configure_file(input_file, output_file, vars_dict)
 ")
 
-find_package(PythonLibs 3 REQUIRED)
+# find_package(PythonLibs 3 REQUIRED)
+find_package(Python COMPONENTS Interpreter Development)
 
 execute_process(
   COMMAND
-    ${PYTHON_EXECUTABLE} "-c" ${_config_script}
+    ${Python_EXECUTABLE} "-c" ${_config_script}
   )
 
 add_executable(example "")
