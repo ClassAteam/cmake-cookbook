@@ -1,0 +1,32 @@
+* Inbox
+** [2023-03-08 Ср 15:00] How it works?
+  add_library(boost_external INTERFACE)
+  so we if we found properly preeinstalled boost libraries and we use "INTERFACE" as a keyword for all-default paths and smt ?
+
+[[file:~/repo/cmake-cookbook/chapter-08/recipe-02/cxx-example/external/upstream/boost/CMakeLists.txt::add_library(boost_external INTERFACE)]]
+** [2023-03-08 Ср 12:34] Boost configuration, building and installation native method
+    CONFIGURE_COMMAND
+      <SOURCE_DIR>/bootstrap.sh
+      --with-toolset=${_toolset}
+      --prefix=${STAGED_INSTALL_PREFIX}/boost
+      ${_bootstrap_select_libraries}
+    BUILD_COMMAND
+      <SOURCE_DIR>/b2 -q
+           link=shared
+           threading=multi
+           variant=release
+           toolset=${_toolset}
+           ${_b2_select_libraries}
+
+[[file:~/repo/cmake-cookbook/chapter-08/recipe-02/cxx-example/external/upstream/boost/CMakeLists.txt::CONFIGURE_COMMAND
+ <SOURCE_DIR>/bootstrap.sh
+ --with-toolset=${_toolset}
+ --prefix=${STAGED_INSTALL_PREFIX}/boost
+ ${_bootstrap_select_libraries}
+ BUILD_COMMAND
+ <SOURCE_DIR>/b2 -q
+ link=shared
+ threading=multi
+ variant=release
+ toolset=${_toolset}
+ ${_b2_select_libraries}]]
